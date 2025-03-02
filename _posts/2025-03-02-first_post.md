@@ -7,4 +7,4 @@ categories: website testing
 ---
 This is my first time making a blog post, so I'm just testing it out to get a feel of the layout.
 
-I hope you enjoyed reading
+My next blog post will be a status update on my CMS synthetic data science project.

@@ -4,7 +4,7 @@ title: Airport Identification
 description: Identification of airports based on plane density, with image recognition capacity
 img: assets/img/adsb_app.png
 importance: 1
-category: work
+category: IEX
 related_publications: false
 ---
 

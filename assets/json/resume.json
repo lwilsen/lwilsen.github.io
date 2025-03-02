@@ -1,36 +1,60 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Luke Wilsen",
+    "label": "Data Scientist",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "lukewilsen45@gmail.com",
+    "phone": "(978)-489-4234",
+    "url": "https://lwilsen.github.io",
+    "summary": "Data Scientist and Top Secret Security Clearance candidate, specializing in machine learning, with expertise in predictive modelling and AI-driven decision support. Strong experience applying Python, PyTorch, and Scikit-Learn to structured and unstructured datasets, and proficient in deploying machine learning models using MLOps tools such as Docker, FastAPI, and Streamlit.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
+      "address": "Sudbury",
+      "postalCode": "MA 01776",
+      "city": "Sudbury",
       "countryCode": "US",
-      "region": "California"
-    },
-    "profiles": [
-      {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
-      }
-    ]
+      "region": "Massachusetts"
+    }
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
+      "name": "Iron Eagle X",
+      "position": "Data Science Intern",
       "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "startDate": "2024-01-01",
+      "endDate": "Present",
+      "summary": "Data Science internship in Tampa, FL",
+      "highlights": [
+        "Completed a comprehensive Data Science Development Program covering related Python libraries, data preprocessing, machine learning and industry standard coding and code checking practices.",
+        "Developed and deployed machine learning models using PyTorch, TensorFlow, and Scikit-Learn, applying deep learning and NLP techniques for AI-driven analytics.",
+        "Designed end-to-end ML pipelines with Flask APIs and Docker, ensuring scalable and efficient deployment.",
+        "Built Streamlit-based applications to visualize AI outputs, enhancing accessibility for stakeholders."
+      ]
+    },
+    {
+      "name": "Prapela",
+      "position": "Statistical Consultant",
+      "url": "https://example.com",
+      "startDate": "2023-09-01",
+      "endDate": "Present",
+      "summary": "Statistical consulting in Biddeford, ME",
+      "highlights": [
+        "Conducted statistical analysis using Python and R to inform decision-making in business and compliance contexts.",
+        "Reviewed, developed, and completed a statistical analysis of sensor data demonstrating the stimulation equivalency of pilot clinical and production medical devices.",
+        "Advised a FDA De Novo classification submission package requesting clearance of this novel pediatric FDA -- awarded Breakthrough Device Designation."
+      ]
+    },
+    {
+      "name": "Dimensional Insight",
+      "position": "Healthcare Business Intelligence Analyst Intern",
+      "url": "https://example.com",
+      "startDate": "2023-05-01",
+      "endDate": "2023-08-01",
+      "summary": "Internship in Burlington, MA",
+      "highlights": [
+        "Developed pricing and revenue analytics dashboards using CMS claims, improving data visibility for hospital administrators by 25%.",
+        "Worked cross-functionally with analysts and key stakeholders to interpret customer data insights.",
+        "Collaborated with a team of analysts from different teams to tailor dashboards to specific customer needs."
+      ]
     }
   ],
   "volunteer": [
@@ -47,24 +71,35 @@
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "institution": "University of Massachusetts Amherst",
+      "location": "Amherst, MA",
+      "url": "https://www.umass.edu/",
+      "area": "Public Health with a concentration in Bio Statistics",
+      "studyType": "Bachelor of Science",
+      "startDate": "2020-09-01",
+      "endDate": "2024-05-01",
+      "score": "3.75",
+      "courses": ["Statistics", "Multivariable Calculus", "Applied Linear Algebra", "Predictive Analytics with Python"]
+    },
+    {
+      "institution": "University of Massachusetts Amherst",
+      "location": "Amherst, MA",
+      "url": "https://www.umass.edu/",
+      "area": "Bio Statistics",
+      "studyType": "Master of Science Candidate",
+      "startDate": "2024-09-01",
+      "endDate": "2025-05-01",
+      "score": "",
+      "courses": []
     }
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "title": "Dean's List",
+      "date": "2024-05-01",
+      "awarder": "University of Massachusetts Amherst",
+      "url": "",
+      "summary": "Academic achievement"
     }
   ],
   "certificates": [
@@ -136,42 +171,118 @@
   ],
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
+      "name": "Programming Languages",
+      "level": "Experienced",
+      "icon": "fa-solid fa-code",
+      "keywords": ["R (3 years)", "Python (3 years)", "SQL (1 year)"]
+    },
+    {
+      "name": "Machine Learning & NLP",
+      "level": "Advanced",
+      "icon": "fa-solid fa-brain",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Scikit-Learn", 
+        "PyTorch", 
+        "TensorFlow", 
+        "Hugging Face Transformers", 
+        "Generative AI (ChatGPT, BERT)", 
+        "Prompt Engineering", 
+        "Large Language Models", 
+        "Deep Learning", 
+        "Text Classification"
+      ]
+    },
+    {
+      "name": "MLOps & Deployment",
+      "level": "Intermediate",
+      "icon": "fa-solid fa-server",
+      "keywords": [
+        "Docker", 
+        "Docker Compose", 
+        "FastAPI", 
+        "Flask", 
+        "Model Deployment", 
+        "Streamlit", 
+        "Git"
+      ]
+    },
+    {
+      "name": "Data Management",
+      "level": "Intermediate",
+      "icon": "fa-solid fa-database",
+      "keywords": [
+        "ETL Processes", 
+        "Data Warehousing", 
+        "SQL Management", 
+        "SQLite3"
+      ]
+    },
+    {
+      "name": "AI & NLP",
+      "level": "Advanced",
+      "icon": "fa-solid fa-robot",
+      "keywords": [
+        "Natural Language Processing", 
+        "Artificial Intelligence", 
+        "Prompt Engineering", 
+        "Large Language Models", 
+        "Deep Learning", 
+        "Neural Networks"
+      ]
+    },
+    {
+      "name": "Tools & Platforms",
+      "level": "Intermediate",
+      "icon": "fa-solid fa-toolbox",
+      "keywords": [
+        "Docker", 
+        "Docker Compose", 
+        "Git", 
+        "Streamlit", 
+        "Fastapi", 
+        "Flask API", 
+        "Microsoft Suite", 
+        "SAS", 
+        "Stata", 
+        "Tableau", 
+        "Power BI", 
+        "Azure"
+      ]
+    },
+    {
+      "name": "Soft Skills",
+      "level": "Advanced",
+      "icon": "fa-solid fa-comments",
+      "keywords": [
+        "Communication", 
+        "Collaboration", 
+        "Problem-Solving", 
+        "Analytical Thinking", 
+        "Conversational French"
       ]
     }
   ],
   "languages": [
     {
-      "language": "German",
+      "language": "English",
       "fluency": "Native speaker",
       "icon": ""
     },
     {
-      "language": "English",
-      "fluency": "Fluent",
+      "language": "French",
+      "fluency": "Conversational",
       "icon": ""
     }
   ],
   "interests": [
     {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
+      "name": "Data Science",
+      "icon": "fa-solid fa-chart-line",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Machine Learning",
+        "Artificial Intelligence",
+        "Predictive Analytics",
+        "Big Data"
       ]
     }
   ],
@@ -189,12 +300,36 @@
   ],
   "projects": [
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "Titanic Survival Prediction",
+      "summary": "Utilized machine learning techniques to create a predictive model for passenger survival on the Titanic, involving data cleaning, feature engineering, and model selection.",
+      "highlights": ["Data Cleaning", "Feature Engineering", "Model Selection"],
+      "startDate": "",
+      "endDate": "",
+      "url": ""
+    },
+    {
+      "name": "Ames Housing Price Prediction",
+      "summary": "Developed a regression model to predict house prices in Ames, Iowa, incorporating data preprocessing, feature selection, and model evaluation.",
+      "highlights": ["Data Preprocessing", "Feature Selection", "Model Evaluation"],
+      "startDate": "",
+      "endDate": "",
+      "url": ""
+    },
+    {
+      "name": "IMDB Movie Sentiment Analysis",
+      "summary": "Developed an NLP-based sentiment classification model using deep learning to classify movie reviews as positive or negative, involving text cleaning, feature extraction, and sentiment analysis.",
+      "highlights": ["Text Cleaning", "Feature Extraction", "Sentiment Analysis"],
+      "startDate": "",
+      "endDate": "",
+      "url": ""
+    },
+    {
+      "name": "MNIST Handwritten Digit Recognition",
+      "summary": "Implemented a neural network to recognize handwritten digits from the MNIST dataset, including data loading, model architecture design, and training/evaluation procedures.",
+      "highlights": ["Neural Networks", "Model Architecture", "Training/Evaluation"],
+      "startDate": "",
+      "endDate": "",
+      "url": ""
     }
   ]
 }

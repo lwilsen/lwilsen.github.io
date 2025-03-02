@@ -4,7 +4,7 @@ title: Bayesian Modelling
 description: My final project from my Bayesian Modelling class at UMass Amherst
 img:
 importance: 4
-category: fun
+category: School
 ---
 
 # Final Project for Biostatistics 730 @ UMass Amherst Fall 2024

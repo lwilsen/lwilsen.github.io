@@ -1,6 +1,6 @@
 ---
 layout: page
-title: submenus
+title: Project Dropdown
 nav: true
 nav_order: 8
 dropdown: true
