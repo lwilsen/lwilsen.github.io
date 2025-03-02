@@ -1,14 +1,11 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - lwilsen
+  - 
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - lwilsen/adsb_airports
+  - lwilsen/BS_730_proj
+  - lwilsen/IEX_final_project
+  - lwilsen/IEX_Training
