@@ -1,9 +1,8 @@
 ---
 layout: page
-title: project 3 with very long name
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
+title: IEX Training
+description: General overview of what I learned as an intern at IEX
+img: 
 importance: 3
 category: work
 ---

@@ -1,9 +1,9 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
-img: assets/img/1.jpg
-importance: 3
+title: CMS Synthetic Data Project
+description: Data science project investigating and replicating methodologies used on real Medicare and Medicaid data
+img: 
+importance: 5
 category: fun
 ---
 
