@@ -26,11 +26,19 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a second year Master's student of Biostatistics at The School of Public Health and Health Sciences at UMass Amherst. I'm passionate about leveraging data-driven insights to actuate meaningful results. I'm committed to delivering results with a focused attention to detail, and a strong background in data analytics, biostatistics, and machine learning. 
+🔬 Data Scientist | Biostatistics MS | Machine Learning & AI Enthusiast
 
-I've been able to apply these skills and gain experience through my internship at Dimensional Insight, a high-tech healthcare analytics company in Massachusetts, where I created complex analytic applications used to drive actionable results in hospital systems throughout the country. I have a strong foundation in python and R, which I have used to clean and analyze complex datasets to create statistical reports analyzing healthcare data at a county level.
+I am a data scientist with a strong foundation in machine learning, predictive modeling, and AI-driven decision support. Currently pursuing my Master’s in Biostatistics at UMass Amherst, I thrive at the intersection of data science and healthcare analytics, leveraging statistical models and machine learning techniques to drive meaningful insights.
 
-As a highly adaptable and project oriented professional, I thrive in diverse and unfamiliar environments and constantly seek to push myself and improve my skills. I am passionate about using my skills to improve health outcomes for people across the world, and am excited to contribute my experience and expertise to projects focused on biostatistical research and health outcomes.
+My professional experience spans healthcare analytics, AI-driven modeling, and MLOps. At Iron Eagle X, I built and deployed machine learning pipelines using PyTorch, Scikit-Learn, and Docker, applying deep learning and NLP techniques to complex datasets. As a Statistical Consultant at Prapela, I conducted statistical analyses that contributed to an FDA De Novo classification submission for a breakthrough medical device. My work at Dimensional Insight involved developing pricing and revenue analytics dashboards, improving data-driven decision-making for hospital systems.
+
+I specialize in:
+✅ Machine Learning & AI: Deep Learning, NLP, PyTorch, Scikit-Learn
+✅ MLOps & Deployment: FastAPI, Docker, Streamlit, Flask
+✅ Statistical Modeling & Biostatistics: Predictive Analytics, Python, R
+✅ Healthcare & Fitness Data Science: Clinical Research, Time-Series Analysis
+
+I am passionate about using data to improve health outcomes and optimize human performance. Whether it’s developing AI models to enhance healthcare analytics or applying statistical insights to fitness technology, I am eager to contribute to projects that make a tangible impact.
 
 I'd love to connect on [linkedin](https://www.linkedin.com/in/luke-wilsen-938970234/), or through my [email](mailto::lukewilsen45@gmail.com).
 
