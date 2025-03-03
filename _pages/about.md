@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Aspiring Data Scientist. 
+subtitle: 🔬 Data Scientist | Biostatistics MS | Machine Learning & AI Enthusiast
 
 profile:
   align: right
@@ -25,8 +25,6 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
-
-🔬 Data Scientist | Biostatistics MS | Machine Learning & AI Enthusiast
 
 I am a data scientist with a strong foundation in machine learning, predictive modeling, and AI-driven decision support. Currently pursuing my Master’s in Biostatistics at UMass Amherst, I thrive at the intersection of data science and healthcare analytics, leveraging statistical models and machine learning techniques to drive meaningful insights.
 
