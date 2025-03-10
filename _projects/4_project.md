@@ -46,19 +46,6 @@ A Bayesian hierarchical model for estimating the statistical parameters in a thr
 
 We will use data from the CDC available [here](https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-Public-Use-Data-with-Ge/n8mc-b4w4/about_data). This includes case surveillance (public use) with for all COVID-19 cases shared with the CDC, including demographics, geography (e.g., state), exposure history, disease severity indicators, and outcomes (e.g., hospitalization). It also includes underlying medical conditions. Reporting of data was discontinued July 1, 2024.
 
-```{r message = FALSE}
-library(RSocrata)
-library(tidyverse)
-
-# CDC dataset with geographic data (this one includes state/county and person-level)
-df <- read.socrata(
-  url = "https://data.cdc.gov/resource/n8mc-b4w4.json?$limit=1000"
-)
-
-# Data structure
-glimpse(df)
-```
-
 # Action plan
 
 We will consider a "Bayesian Workflow" [@gelman2020] with an iterative process, and will build a model, evaluate (diagnostics), and try to improve and expand the model in different ways.
@@ -72,7 +59,11 @@ We will consider a "Bayesian Workflow" [@gelman2020] with an iterative process, 
 Let $Y_i$ denote the binary outcome (hospitalization), where:
 
 $$
-Y_i =  1, & \text{if the individual is hospitalized}\\ 0, &\text{otherwise}.
+Y_i = 
+\begin{cases} 
+1, & \text{if the individual is hospitalized} \\
+0, & \text{otherwise}
+\end{cases}
 $$ and:
 
 $$
