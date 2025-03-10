@@ -7,11 +7,11 @@ importance: 4
 category: School
 ---
 
-# Final Project for Biostatistics 730 @ UMass Amherst Fall 2024
+## Final Project for Biostatistics 730 @ UMass Amherst Fall 2024
 
 [Link to Repo](https://github.com/lwilsen/BS_730_proj)
 
-# Summary
+## Summary
 
 Hospitals in the U.S. were overrun during the COVID pandemic due to limited resources and increased burden of illness. It is important for public health and healthcare organizations to prioritize care (using hospital beds for severe cases). An accurate prediction model may help identify those at high risk and need for hospitalization. This may improve resource efficiency.
 
@@ -42,11 +42,11 @@ Bayesian Hierarchical models incorporating study-level covariates for multivaria
 
 A Bayesian hierarchical model for estimating the statistical parameters in a three-parameter log-normal distribution for monthly average streamflows [@li2020]
 
-# Data
+## Data
 
 We will use data from the CDC available [here](https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-Public-Use-Data-with-Ge/n8mc-b4w4/about_data). This includes case surveillance (public use) with for all COVID-19 cases shared with the CDC, including demographics, geography (e.g., state), exposure history, disease severity indicators, and outcomes (e.g., hospitalization). It also includes underlying medical conditions. Reporting of data was discontinued July 1, 2024.
 
-# Action plan
+## Action plan
 
 We will consider a "Bayesian Workflow" [@gelman2020] with an iterative process, and will build a model, evaluate (diagnostics), and try to improve and expand the model in different ways.
 

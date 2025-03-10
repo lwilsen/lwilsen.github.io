@@ -7,10 +7,6 @@ importance: 3
 category: IEX
 ---
 
-# IEX_Training
-
-Welcome to my training/learning project!
-
 This repo is divided into different topics that I learned about as a part of my internship with IEX (Iron Eagle X). You can look at the project repo here [IEX_Training_Repo](https://github.com/lwilsen/IEX_Training)
 
 ## Topics
