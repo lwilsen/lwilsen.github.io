@@ -8,6 +8,8 @@ category: IEX
 related_publications: false
 ---
 
+[Link to Repo](https://github.com/lwilsen/adsb_airports/tree/main)
+
 This is a data science/visualization project that focuses on using pulled ADS-B data to identify airports in Florida, and to track the flight paths of specific flights using the h3 python library. The code can be adapted to anywhere in the world where ADS-B data is available. The main goal of this project was to build a template for an app that can take geospatial data, output a visual display of that data, then use an API to get a satellite image to visually check the results that are implied by the data, and finally to use image processing and computer vision to analyze the satellite image. If I had access to better quality satellite imagery, more computing power to run a more powerful image processing model, and more data, this project would become much more useful.
 
 At this point however, this app consists of three parts:

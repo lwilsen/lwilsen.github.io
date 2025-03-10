@@ -9,6 +9,7 @@ category: School
 
 # Final Project for Biostatistics 730 @ UMass Amherst Fall 2024
 
+[Link to Repo](https://github.com/lwilsen/BS_730_proj)
 
 # Summary
 
