@@ -64,13 +64,19 @@ Y_i =
 1, & \text{if the individual is hospitalized} \\
 0, & \text{otherwise}
 \end{cases}
-$$ and:
+$$ 
+
+and:
 
 $$
 Y_i | \pi_i \sim \text{Bern}(\pi_i)
 $$
 
-Let $\mathbf{X}_i = (X_{1,i}, X_{2,i}, X_{3,i}, X_{4,i})$ include all of the covariates for individual $i$, where:
+Let 
+
+$$\mathbf{X}_i = (X_{1,i}, X_{2,i}, X_{3,i}, X_{4,i})$$ 
+
+include all of the covariates for individual $i$, where:
 
 -   $X_{1,i}$: Underlying condition
 -   $X_{2,i}$: Age group
@@ -81,7 +87,9 @@ Then the posterior distribution would resemble:
 
 Our logistic Bayesian model would then be:
 
-$ \text{logit}(\pi_i) = \log \left( \frac{P(Y_i = 1 | \mathbf{X}_i)}{1 - P(Y_i = 1 | \mathbf{X}_i)} \right) = \beta_0 + \beta_1 X_{1,i} + \beta_2 X_{2,i} + \beta_3 X_{3,i} + \beta_4 X_{4,i} $
+$$
+ \text{logit}(\pi_i) = \log \left( \frac{P(Y_i = 1 | \mathbf{X}_i)}{1 - P(Y_i = 1 | \mathbf{X}_i)} \right) = \beta_0 + \beta_1 X_{1,i} + \beta_2 X_{2,i} + \beta_3 X_{3,i} + \beta_4 X_{4,i} 
+$$
 
 We will use normal priors for all covariates, and then re-visit the model to experiment with other generic priors (i.e. a student t(3, 0 ,1) preferred by Aki Vehtari (https://github.com/stan-dev/stan/wiki/Prior-Choice-Recommendations))
 
