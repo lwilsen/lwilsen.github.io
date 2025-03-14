@@ -119,13 +119,19 @@ Note this initial model does not include state for hierarchical expression. Our 
 Our final model used the same outcome, with the same assumptions about it's distribution.
 
 ### Final predictors
-- \( X_{1,i} \): Age Group
-- \( X_{2,i} \): Race
-- \( \eta_{0, j[i]} \): State level effect
-- \( j[i] \): refers to the individual specific state
+- $ X_{1,i}$: Age Group
+- $X_{2,i}$: Race
+- $\eta_{0, j[i]}$: State level effect
+- $j[i] $: refers to the individual specific state
 
 ### Final Model
 $$
-\logit(\pi_i) = \log \left( \frac{P(Y_i = 1 | \mathbf{X}_i)}{1 - P(Y_i = 1 | \mathbf{X}_i)} \right) 
+\text{logit}(\pi_i) = \log \left( \frac{P(Y_i = 1 | \mathbf{X}_i)}{1 - P(Y_i = 1 | \mathbf{X}_i)} \right) 
 = \beta_{0, j[i]} + \eta_{0, j[i]} + \beta_{1, j[i]} \mathbf{X}_{1,i} + \beta_{2, j[i]} \mathbf{X}_{2,i}
+$$
+
+### Predicted Probability of Hospitalizatin
+$$
+\hat{\pi}_i = \frac{1}{1 + \exp\left(-\left(\hat{\beta}_{0, j[i]} + \hat{\eta}_{0, j[i]} + 
+\hat{\beta}_{1, j[i]} \mathbf{X}_{1,i} + \hat{\beta}_{2, j[i]} \mathbf{X}_{2,i} \right)\right)}
 $$
