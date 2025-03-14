@@ -56,6 +56,8 @@ We will consider a "Bayesian Workflow" [@gelman2020] with an iterative process, 
 
 3.  We will establish an initial model (will start simple and expand). This will include those covariates deemed worthy based on missingness as well as relationship with outcome. A potential candidate model may include:
 
+### Initial Model
+
 Let $Y_i$ denote the binary outcome (hospitalization), where:
 
 $$
@@ -98,7 +100,7 @@ The prior distribution would assume normal for all covariates:
 
 $ \beta_j \sim \mathcal{N}(0, \sigma^2) \quad \text{for} \quad j = 0, 1, 2, 3, 4 $
 
-Note this initial model does not include state for hierarchical expression.
+Note this initial model does not include state for hierarchical expression. Our final model is explicitly defined below.
 
 4.  We will pursue prior predictive checks.
 
@@ -111,3 +113,19 @@ Note this initial model does not include state for hierarchical expression.
 8.  If time allows, we will consider interaction terms in the model and compare its performance. We will also investigate performance of prediction across different states, particularly those with less cases reported. Other investigations have been considered, depending on time, just for the additional experience.
 
 9.  Our group will work together in parallel with shared data and code in github. This will allow for independent trial/error exploration and comparison of approaches. We will check in with our results each week on Tuesdays and Thursdays. The final product will incorporate our consensus on best model and approach.
+
+## Final Model
+
+Our final model used the same outcome, with the same assumptions about it's distribution.
+
+### Final predictors
+- \( X_{1,i} \): Age Group
+- \( X_{2,i} \): Race
+- \( \eta_{0, j[i]} \): State level effect
+- \( j[i] \): refers to the individual specific state
+
+### Final Model
+$$
+\logit(\pi_i) = \log \left( \frac{P(Y_i = 1 | \mathbf{X}_i)}{1 - P(Y_i = 1 | \mathbf{X}_i)} \right) 
+= \beta_{0, j[i]} + \eta_{0, j[i]} + \beta_{1, j[i]} \mathbf{X}_{1,i} + \beta_{2, j[i]} \mathbf{X}_{2,i}
+$$
