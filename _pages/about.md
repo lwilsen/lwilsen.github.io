@@ -34,4 +34,4 @@ I am passionate about using data to improve health outcomes and optimize human p
 
 I'd love to connect on [linkedin](https://www.linkedin.com/in/luke-wilsen-938970234/), or through my [email](mailto::lukewilsen45@gmail.com).
 
-If you're interested in my specific experience, you can check out my [CV](https://lwilsen.github.io/cv/), or some of my [project](https://lwilsen.github.io/projects/).
+If you're interested in my specific experience, you can check out my [CV](https://lwilsen.github.io/cv/), or some of my [projects](https://lwilsen.github.io/projects/).
