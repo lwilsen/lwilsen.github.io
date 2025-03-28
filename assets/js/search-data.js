@@ -72,15 +72,15 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/projects/5_project/";
               },
-            },{id: "post-my-first-blog-post",
+            },{id: "post-cms-synthetic-data-project",
       
-        title: "My First Blog Post",
+        title: "CMS Synthetic Data Project",
       
-      description: "I&#39;m very new to this",
+      description: "Man this is tough",
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/blog/2015/first_post/";
+          window.location.href = "/blog/2025/first_post-copy/";
         
       },
     },{id: "books-the-godfather",
