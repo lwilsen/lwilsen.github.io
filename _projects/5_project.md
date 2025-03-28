@@ -11,8 +11,5 @@ This project is based on Renu Ghering's HealthCareAnalysis that was created with
 
 I'm going to be exploring this data based on her teaching's as a part of an independent study for my Master's in Biostatistics.
 
-Currently, I'm cleaning and preprocessing the data, as well as coming up with potential research questions.
+If you want to see how this project is going so far, check out my blog posts on it!
 
-My main focus right now is on the prediction of length of stay for patients, and on the classification of patients as high or low risk/severity. 
-
-I'm also very interested in trying to encorporate heirarchical models into this problem.
