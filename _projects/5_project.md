@@ -15,6 +15,8 @@ My goals for this project are to predict the lengh of inpatient stays in the syn
 
 If you want to see how this project is going so far, check out my [blog](https://lwilsen.github.io/blog/) posts on it! 
 
+If you want to see **my notes on this project** (they're pretty messy, *but you'll get a good insight into my thought process*)
+
 ### Abstract
 
 Predicting hospital length of stay (LOS) and disease severity remains a critical challenge in healthcare management. Accurate predictions can assist hospital administrators in optimizing resource allocation, identifying high-risk patients, and improving overall care efficiency. However, LOS prediction has mainly been studied on an ad-hoc basis, making it hard to generalize the findings to other hospitals [(Stone et al., 2022)](https://pmc.ncbi.nlm.nih.gov/articles/PMC9931263/#sec008). Replicating and extending these methodologies on different datasets is essential to assess their generalizability and effectiveness.
