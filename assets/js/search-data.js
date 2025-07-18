@@ -76,6 +76,17 @@ ninja.data = [{
       
         title: "CMS Synthetic Data Project",
       
+      description: "Some progress!",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/CMS-2/";
+        
+      },
+    },{id: "post-cms-synthetic-data-project",
+      
+        title: "CMS Synthetic Data Project",
+      
       description: "Man this is tough",
       section: "Posts",
       handler: () => {
