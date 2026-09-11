@@ -6,10 +6,10 @@ subtitle: 🔬 Data Scientist | Biostatistics MS | Machine Learning & AI Enthusi
 
 profile:
   align: right
-  image: lw_headshot.jpeg
+  image: Gemini_Generated_Image_l2si8ul2si8ul2si.png
   image_circular: true # crops the image to make it circular
   more_info: >
-    <p>Sudbury, Massachusetts 01776</p>
+    <p>Allston, Massachusetts 02143</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 
