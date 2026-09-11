@@ -26,11 +26,26 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a data scientist with a strong foundation in machine learning, predictive modeling, and AI-driven decision support. Currently pursuing my Master’s in Biostatistics at UMass Amherst, I thrive at the intersection of data science and healthcare analytics, leveraging statistical models and machine learning techniques to drive meaningful insights.
+I am an Associate Software Engineer at Analog Devices, working within the Developer Platforms group to optimize the intersection of AI/ML and hardware engineering. My role is centered on the Intelligent Edge, ensuring that the journey from an initial ML model to deployment on silicon is as seamless and efficient as possible.
 
-My professional experience spans healthcare analytics, AI-driven modeling, and MLOps. At Iron Eagle X, I built and deployed machine learning pipelines using PyTorch, Scikit-Learn, and Docker, applying deep learning and NLP techniques to complex datasets. As a Statistical Consultant at Prapela, I conducted statistical analyses that contributed to an FDA De Novo classification submission for a breakthrough medical device. My work at Dimensional Insight involved developing pricing and revenue analytics dashboards, improving data-driven decision-making for hospital systems.
+Currently, I specialize in Xops (DevOps, MLOps, and AIOps) with a specific focus on Developer Experience (DevEx). Rather than just focusing on the tools themselves, I view DevEx as a nuanced, multifaceted challenge that requires a deep understanding of how engineers interact with complex systems.
 
-I am passionate about using data to improve health outcomes and optimize human performance. Whether it’s developing AI models to enhance healthcare analytics or applying statistical insights to fitness technology, I am eager to contribute to projects that make a tangible impact.
+My work is focused on two key pillars:
+
+Data-Driven DevEx Strategy: Leveraging my background in Biostatistics and Data Science, I collect and analyze developer experience metrics to provide actionable insights. I treat DevEx as a high-dimensional data problem, using metrics to identify and remove the technical and cognitive "friction points" that take developers away from real work that matters.
+
+Hardware-AI Integration: Assisting hardware teams in navigating the complexities of AI/ML edge deployments, streamlining the path from model development to silicon.
+
+With an MS in Biostatistics from UMass Amherst and professional experience in data science and analytics (Iron Eagle X, Prapela), I bring a rigorous analytical framework to software engineering. I am passionate about using data to improve human and system performance, whether that’s in a clinical setting or a high-stakes hardware environment.
+
+Core Technical Stack & Expertise:
+
+DevEx & Xops Strategy: Friction Identification, Developer Journey Mapping, MLOps, AIOps
+AI/ML at the Edge: PyTorch, Scikit-Learn, Assisting Hardware-AI Integrations
+Data Science & Analytics: Statistical Modeling (R/Python), Metric Design, Human-Centered Engineering Telemetry
+Domain Expertise: Biostatistics, Healthcare Analytics, Intelligent Edge Systems
+
+I thrive on solving the "invisible" problems in the software lifecycle. If you’re interested in how data science can be used to optimize engineering velocity and the future of the Intelligent Edge, let’s connect!
 
 I'd love to connect on [linkedin](https://www.linkedin.com/in/luke-wilsen-938970234/), or through my [email](mailto::lukewilsen45@gmail.com).
 
